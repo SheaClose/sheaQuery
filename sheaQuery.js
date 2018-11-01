@@ -31,7 +31,6 @@ function css(prop, val) {
         styleWithObject.call(node, prop);
       }
     });
-    console.log(this);
     return this;
   } else {
     if (val) {
